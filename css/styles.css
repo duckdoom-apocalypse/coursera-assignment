@@ -49,3 +49,18 @@ h2 {
   margin: 10px;
   margin-top: 40px
 }
+
+h3 {
+  font-family: sans-serif;
+  color: #30364F;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main-text p {
+  font-family: sans-serif;
+  color: #30364F;
+  padding: 10px
+}
