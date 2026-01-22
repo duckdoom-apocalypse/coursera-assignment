@@ -20,10 +20,12 @@ body{
   font-family: sans-serif;
   color: #ECECEC;
   font-size: 1.5em;
-  text-transform: uppercase;
   text-align: left;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
