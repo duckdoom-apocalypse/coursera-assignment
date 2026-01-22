@@ -1,6 +1,6 @@
 body{
     font-size: 16px;
-    background-color: #FAF3E1;
+    background-color: #ECECEC;
     font-family: sans-serif;
 }
 
@@ -17,7 +17,7 @@ body{
 
 .navbar-brand h1 {
   font-family: sans-serif;
-  color: #F0F0DB;
+  color: #ECECEC;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
