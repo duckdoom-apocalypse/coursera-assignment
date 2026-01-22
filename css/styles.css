@@ -95,4 +95,8 @@ h3 {
     .main-text {
         margin:60px;
 }
+
+    .navbar-collapse {
+        width: 100%
+}
 }
