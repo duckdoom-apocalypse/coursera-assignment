@@ -64,3 +64,44 @@ h3 {
   color: #30364F;
   padding: 10px
 }
+
+.navbar-header button.navbar-toggle {
+  background-color:#30364F;
+  border: 2px solid #ECECEC
+}
+
+#nav-list {
+  margin-top: 20px;
+  background-color:#30364F
+}
+#nav-list a {
+  color:#ECECEC;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: lightgrey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
