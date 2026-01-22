@@ -65,14 +65,14 @@ h3 {
   padding: 10px
 }
 
-.navbar-header button.navbar-toggle {
+.navbar-header button.navbar-toggle .icon-bar {
   background-color:#30364F;
   border: 2px solid #ECECEC
 }
 
 #nav-list {
-  margin-top: 20px;
-  background-color:#30364F
+  margin-top: 10px;
+  background-color:#30364F;
 }
 #nav-list a {
   color:#ECECEC;
@@ -85,23 +85,14 @@ h3 {
   font-size: 1.8em;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .hidden{display:none}
+@media (min-width: 767px) {
+    .h {
+    display:none;
+}
 }
 
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { 
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
+@media (max-width:766px) {
+    .main-text {
+        margin:60px;
+}
 }
