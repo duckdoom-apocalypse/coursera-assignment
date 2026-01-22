@@ -99,4 +99,9 @@ h3 {
     .navbar-collapse {
         width: 100%
 }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color:transparent;
+}
+
 }
