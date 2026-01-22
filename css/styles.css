@@ -9,6 +9,8 @@ body{
   background-color: #30364F;
   border-radius: 0;
   border: 0;
+  height: 200px;
+  width: 50%;
 }
 
 .navbar-brand {
