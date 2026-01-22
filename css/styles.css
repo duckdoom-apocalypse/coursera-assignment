@@ -28,10 +28,8 @@ body{
 }
 
 .main content h3 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
   text-align: center;
   font-size: 1.2em;
   color: #30364F;
