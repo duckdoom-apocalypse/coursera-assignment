@@ -27,13 +27,15 @@ body{
   line-height: .75;
 }
 
-.navbar-brand h3 {
-  font-family: sans-serif;
-  color: #30364F;
-  font-size: 1em;
-  font-weight: bold;
+.main content h3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
   text-align: center;
-  line-height: .75;
+  font-size: 1.2em;
+  color: #30364F;
+  opacity: .8;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
